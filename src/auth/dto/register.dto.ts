@@ -11,9 +11,9 @@ export class RegisterDto {
 
   @IsEmail()
   @IsNotEmpty()
-  email: string;
+  email!: string;
 
   @IsString()
   @IsNotEmpty()
-  password: string;
+  password!: string;
 }
